@@ -1,38 +1,273 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 300px;
+margin-top: 10px;
+}
+
+.imgs{
+  margin-top: 12px;
+}
+
+ul{
+  display: flex;
+list-style: none;
+gap: 30px;
+font-size: 20px;
+font-weight: 500;
+color: #424551;
+
+}
+
+.mm{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.ll .fss{
+  height: 44px;
+  width: 160px;
+  background-color: white;
+  margin-top: 12px;
+  border: 2px solid #D7DADD;
+}
+
+.icon{
+  color: #424551;
+}
+
+.imgsss{
+  width: 390px;
+height: 300px;
+}
+
+i{
+  
+}
+
+input{
+  width: 285px;
+  height: 38px;
+  margin-top: 12px;
+  border: 2px solid #D7DADD;
+}
+
+.ll{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+gap: 20px;
+}
+
+.brr{
+  display: flex;
+  gap: 10px;
+ margin-top: 10px;
+}
+
+.brr .gge{
+ width: 120px;
+ height: 46px;
+ background-color: white;
+ border: none;
+color: #9A9CA5;
+font-weight: 700;
+font-size: 16px;
+transition: 0.5s;
+}
+
+.brr .gge:hover{
+  color: #FF3F3A;
+  border: 2px solid #FF3F3A;
+  border-radius: 4px;
+}
+
+.brr .ggr{
+  width: 120px;
+  height: 46px;
+  background-color: white;
+  border: none;
+ color: #9A9CA5;
+ font-weight: 700;
+ font-size: 16px;
+ transition: 0.5s;
+}
+
+.tty{
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.brr .ggt{
+  width: 129px;
+  height: 46px;
+  background-color: white;
+  border: none;
+ color: #9A9CA5;
+ font-weight: 700;
+ font-size: 16px;
+ transition: 0.5s;
+}
+
+.brr .ggt:hover{
+  color: #FF3F3A;
+  border: 2px solid #FF3F3A;
+  border-radius: 4px;
+}
+
+.brr .ggr:hover{
+  color: #FF3F3A;
+  border: 2px solid #FF3F3A;
+  border-radius: 4px;
+}
+
+
+
+.brr .ggw{
+  width: 62px;
+  height: 46px;
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.5s;
+  color: #9A9CA5;
+}
+
+.brr .ggw:hover{
+  color: #FF3F3A;
+  border: 2px solid #FF3F3A;
+  border-radius: 4px;
+}
+
+.hs{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.h4 {
+  font-size: 22px;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0; 
+}
+
+.ttt {
+  font-size: 46px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+
+.ccc{
+  display: flex;
+  gap: 7px;
+}
+
+.tepa{
+  margin-top: 25px;
+}
+
+.ta{
+  display: flex;
+  gap: 10px;
+}
+
+.btn .bts{
+  background-color: #F75E05;
   color: white;
+  width: 207px;
+  height: 52px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+ul li{
+  transition: 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li:hover{
+  color: #FF3F3A;
+}
+
+.card {
+  width: 390px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #d7dadd;
+  padding: 16px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-content {
+  padding: 12px 0;
+}
+
+.tag {
+  font-size: 14px;
+  color: #ff3f3a;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #9a9ca5;
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #424551;
+  line-height: 1.5;
+}
+
+.listen-link {
+  color: #ff3f3a;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.listen-link:hover {
+  text-decoration: underline;
+}
+
+.nnn{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
 }
