@@ -271,3 +271,97 @@ ul li:hover{
   gap: 40px;
   margin-top: 100px;
 }
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  max-width: 350px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.sll{
+  width: 705px;
+  height: 300px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.listen-link {
+  color: #ff4d4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.listen-link:hover {
+  text-decoration: underline;
+}
+
+.err img{
+  width: 100%;
+}
+
+.err{
+  width: 700px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #d7dadd;
+  padding: 16px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-top: 10px;
+
+}
+
+.errs img{
+  width: 100%;
+}
+.errs{
+  width: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #d7dadd;
+  padding: 16px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.hhhg{
+  display: flex;
+  justify-content: center;
+}

@@ -62,65 +62,99 @@ function App() {
       </div>
 
       <div className="nnn">
-        
-      <div className="card">
-        <img className="imgsss" src="./assets/img2.png" alt="" />
-        <div className="card-content">
-         
-          <div className="card-info">
-            <span>Marketing | 📅 September 4, 2020</span>
-            <span>⏱ 36 min</span>
+        <div className="card">
+          <img className="imgsss" src="./assets/img2.png" alt="" />
+          <div className="card-content">
+            <div className="card-info">
+              <span>Marketing | 📅 September 4, 2020</span>
+              <span>⏱ 36 min</span>
+            </div>
+            <h3>What is traffic arbitrage and does it really make money?</h3>
+            <p>
+              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+              Convallis proin dignissim lacus, purus gravida...
+            </p>
+            <a href="#" className="listen-link">
+              Listen →
+            </a>
           </div>
-          <h3>What is traffic arbitrage and does it really make money?</h3>
-          <p>
-            Pharetra, ullamcorper iaculis viverra parturient sed id sed.
-            Convallis proin dignissim lacus, purus gravida...
-          </p>
-          <a href="#" className="listen-link">
-            Listen →
-          </a>
+        </div>
+
+        <div className="card">
+          <img className="imgsss" src="./assets/img3.png" alt="" />
+          <div className="card-content">
+            <div className="card-info">
+              <span>Development | 📅 September 1, 2020</span>
+            </div>
+            <h3>How to choose the first programming language for a beginner</h3>
+            <p>
+              Turpis sed at magna laoreet gravida consequat tortor placerat.
+              Gravida vitae aliquet enim egestas dui...
+            </p>
+            <a href="#" className="listen-link">
+              Listen →
+            </a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img className="imgsss" src="./assets/img4.png" alt="" />
+          <div className="card-content">
+            <div className="card-info">
+              <span>Design | 📅 August 8, 2020</span>
+              <span>⏱ 40 min</span>
+            </div>
+            <h3>What is traffic arbitrage and does it really make money?</h3>
+            <p>
+              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+              Convallis proin dignissim lacus, purus gravida...
+            </p>
+            <a href="#" className="listen-link">
+              Listen →
+            </a>
+          </div>
         </div>
       </div>
-
-      <div className="card">
-        <img className="imgsss" src="./assets/img3.png" alt="" />
-        <div className="card-content">
-         
-          <div className="card-info">
-            <span>Development | 📅 September 1, 2020</span>
-           
+<div className="hhhg">
+      <div className="err">
+     <img className="sll" src="./assets/img5.png" alt="" />
+     
+     <div className="card-content">
+            <div className="card-info">
+              <span>Design | 📅 August 8, 2020</span>
+              <span>⏱ 40 min</span>
+            </div>
+            <h3>What is traffic arbitrage and does it really make money?</h3>
+            <p>
+              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+              Convallis proin dignissim lacus, purus gravida...
+            </p>
+            <a href="#" className="listen-link">
+              Listen →
+            </a>
           </div>
-          <h3>How to choose the first programming language for a beginner</h3>
-          <p>
-          Turpis sed at magna laoreet gravida consequat tortor placerat. Gravida vitae aliquet enim egestas dui...
-          </p>
-          <a href="#" className="listen-link">
-            Listen →
-          </a>
-        </div>
       </div>
-
-      <div className="card">
-        <img className="imgsss" src="./assets/img4.png" alt="" />
-        <div className="card-content">
-         
-          <div className="card-info">
-            <span>Design | 📅 August 8, 2020</span>
-            <span>⏱ 40 min</span>
+      <div className="errs">
+     <img className="sll" src="./assets/img6.png" alt="" />
+     
+     <div className="card-content">
+            <div className="card-info">
+              <span>Design | 📅 August 8, 2020</span>
+              <span>⏱ 40 min</span>
+            </div>
+            <h3>What is traffic arbitrage and does it really make money?</h3>
+            <p>
+              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
+              Convallis proin dignissim lacus, purus gravida...
+            </p>
+            <a href="#" className="listen-link">
+              Listen →
+            </a>
           </div>
-          <h3>What is traffic arbitrage and does it really make money?</h3>
-          <p>
-            Pharetra, ullamcorper iaculis viverra parturient sed id sed.
-            Convallis proin dignissim lacus, purus gravida...
-          </p>
-          <a href="#" className="listen-link">
-            Listen →
-          </a>
-        </div>
+      </div>
       </div>
 
-
-      </div>
+      
     </div>
   );
 }
