@@ -1,36 +1,27 @@
-import { IoPersonOutline } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 import { GrDocumentText } from "react-icons/gr";
 import { FiPlayCircle } from "react-icons/fi";
 import { HiOutlineMicrophone } from "react-icons/hi";
 import { FaChevronDown } from "react-icons/fa";
+import { GrFormNextLink } from "react-icons/gr";
+import { IoCheckbox } from "react-icons/io5";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa";
+import { BsYoutube } from "react-icons/bs";
+import Navbar from './components/navbar';
+import { FaTelegramPlane } from "react-icons/fa";
+import { IoPhonePortraitOutline } from "react-icons/io5";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdMailOutline } from "react-icons/md";
+
+import Card from './card';
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <div className="ta">
-          <div className="imgs">
-            <img src="./assets/img1.jpg" alt="" />
-          </div>
-          <div>
-            <ul>
-              <li>About Us</li>
-              <li>Courses</li>
-              <li>Events</li>
-              <li>Blog</li>
-              <li>Contacts</li>
-            </ul>
-          </div>
-        </div>
-        <div className="btn">
-          <button className="bts">Get consultation</button>
-          <div className="ccc">
-            <IoPersonOutline className="tepa" />
-            <h4>Log in / Register</h4>
-          </div>
-        </div>
-      </div>
+      <Navbar />
+  
 
       <h4 className="h4">Our blog</h4>
       <h1 className="ttt">Createx School Journal</h1>
@@ -61,150 +52,117 @@ function App() {
         </div>
       </div>
 
-      <div className="nnn">
-        <div className="card">
-          <img className="imgsss" src="./assets/img2.png" alt="" />
-          <div className="card-content">
-            <div className="card-info">
-              <span>Marketing | 📅 September 4, 2020</span>
-              <span>⏱ 36 min</span>
-            </div>
-            <h3>What is traffic arbitrage and does it really make money?</h3>
-            <p>
-              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
-              Convallis proin dignissim lacus, purus gravida...
-            </p>
-            <a href="#" className="listen-link">
-              Listen →
-            </a>
-          </div>
-        </div>
+     <Card/>
 
-        <div className="card">
-          <img className="imgsss" src="./assets/img3.png" alt="" />
-          <div className="card-content">
-            <div className="card-info">
-              <span>Development | 📅 September 1, 2020</span>
-            </div>
-            <h3>How to choose the first programming language for a beginner</h3>
-            <p>
-              Turpis sed at magna laoreet gravida consequat tortor placerat.
-              Gravida vitae aliquet enim egestas dui...
-            </p>
-            <a href="#" className="listen-link">
-            Read →
-            </a>
-          </div>
-        </div>
+<div className="foos">
 
-        <div className="card">
-          <img className="imgsss" src="./assets/img4.png" alt="" />
-          <div className="card-content">
-            <div className="card-info">
-              <span>Design | 📅 August 8, 2020</span>
-              <span>⏱ 40 min</span>
-            </div>
-            <h3>What is traffic arbitrage and does it really make money?</h3>
-            <p>
-              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
-              Convallis proin dignissim lacus, purus gravida...
-            </p>
-            <a href="#" className="listen-link">
-            Watch →
-            </a>
-          </div>
-        </div>
-      </div>
-<div className="hhhg">
-      <div className="err">
-     <img className="sll" src="./assets/img5.png" alt="" />
-     
-     <div className="card-content">
-            <div className="card-info">
-              <span>HR & Recruting | 📅 August 3, 2020</span>
-             
-            </div>
-            <h3>HR statistics: job search,  interviews, hiring and recruiting</h3>
-            <p>
-            Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...
-            </p>
-            <a href="#" className="listen-link">
-              Read →
-            </a>
-          </div>
-      </div>
-      <div className="errs">
-     <img className="sll" src="./assets/img6.png" alt="" />
-     
-     <div className="card-content">
-            <div className="card-info">
-              <span>Management | 📅 August 2, 2020 | </span>
-              <span>⏱ 45 min</span>
-            </div>
-            <h3>What is traffic arbitrage and does it really make money?</h3>
-            <p>
-              Pharetra, ullamcorper iaculis viverra parturient sed id sed.
-              Convallis proin dignissim lacus, purus gravida...
-            </p>
-            <a href="#" className="listen-link">
-              Watch →
-            </a>
-          </div>
-      </div>
-      </div>
+<div>
+  <img src="./assets/img10.jpg" alt="" />
+</div>
 
-      <div className="nnns">
-        <div className="card">
-          <img className="imgsss" src="./assets/img7.png" alt="" />
-          <div className="card-content">
-            <div className="card-info">
-              <span>Design | 📅 July 28, 2020</span>
-              <span>⏱ 36 min</span>
-            </div>
-            <h3>What is traffic arbitrage and does it really make money?</h3>
-            <p>
-            Aliquam vulputate hendrerit quam sollicitudin urna enim viverra gravida. Consectetur urna arcu eleifend...
-            </p>
-            <a href="#" className="listen-link">
-              Listen →
-            </a>
-          </div>
-        </div>
+<div>
+  <h2 className="hsil">Want to get the best articles weekly? <br /> Subscribe to our newsletter!</h2>
 
-        <div className="card">
-          <img className="imgsss" src="./assets/img8.png" alt="" />
-          <div className="card-content">
-            <div className="card-info">
-              <span>Management | 📅 July 15, 2020</span>
-              <span>⏱ 45 min</span>
-            </div>
-            <h3>Startup: how to build a team that will live longer than a year</h3>
-            <p>
-            Nisi, massa ut sit faucibus et diam. Faucibus at malesuada at justo scelerisque in nisi, urna...
-            </p>
-            <a href="#" className="listen-link">
-            Watch →
-            </a>
-          </div>
-        </div>
+  <div className="class">
+    <input className="inputs" type="text" placeholder="     Your working email" />
+    <button className="lsa">Subscribe</button>
+  </div>
 
-        <div className="card">
-          <img className="imgsss" src="./assets/img9.png" alt="" />
-          <div className="card-content">
-            <div className="card-info">
-              <span>Marketing | 📅 July 9, 2020</span>
-              <span>⏱ 40 min</span>
-            </div>
-            <h3>How to get customers to love your business from the start</h3>
-            <p>
-            Malesuada in augue mi feugiat morbi a aliquet enim. Elementum lacus, pellentesque etiam arcu tristique ac...
-            </p>
-            <a href="#" className="listen-link">
-            Read →
-            </a>
-          </div>
-        </div>
-      </div>
+<div className="isl">
+  <IoCheckbox className="name" />
+  <p className="ulsi">I agree to receive communications from Createx Online School</p>
+  </div>
+</div>
+
+
+</div>
+
+<div className="footer">
+
+<div>
+  <img src="./assets/img11.png" alt="" />
+  <p className="ails">Createx Online School is a leader in online studying. <br /> We have lots of courses and programs from the main <br /> market experts. We provide relevant approaches <br /> to online learning, internships and employment in the <br /> largest companies in the country.</p>
+
+<div className="div">
+<FaFacebookF className="iconi1" />
+<FaTwitter className="iconi2" />
+<BsYoutube className="iconi3" />
+<FaTelegramPlane className="iconi4" />
+<FaInstagram className="iconi5" />
+<FaLinkedinIn className="iconi6" />
+
+
+</div>
+
+
+</div>
+
+<div className="display">
+
+
+  <ul className="yyu">
+    <li className="uty">SITE MAP</li>
+    <li className="uuy">About Us</li>
+    <li className="uuy">Courses</li>
+    <li className="uuy">Events</li>
+    <li className="uuy">Blog</li>
+    <li className="uuy">Contacts</li>
+  </ul>
+
+
+</div>
+
+<div className="display">
+
+
+  <ul className="yyu">
+    <li className="uty">COURSES</li>
+    <li className="uuy">Marketing</li>
+    <li className="uuy">Management</li>
+    <li className="uuy">HR & Recruting</li>
+    <li className="uuy">Design</li>
+    <li className="uuy">Development</li>
+  </ul>
+
+
+</div>
+
+<div className="display">
+
+
+  <ul className="yyu">
+    <li className="uty">CONTACT US</li>
+    <li className="uuy"><IoPhonePortraitOutline /> (405) 555-0128</li>
+    <li className="uuy"><MdMailOutline className="br"/> hello@createx.com</li>
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+
+  </ul>
+
+
+</div>
+
+<div>
+  <h6 className="namesa">SIGN UP TO OUR NEWSLETTER</h6>
+  <br />
+  <input className="clasis" type="text" placeholder="  Email address" />
+  <p className="lcolor">*Subscribe to our newsletter to receive <br /> communications and early updates from <br /> Createx SEO Agency.</p>
+  <br />
+<br />
+<br />
+<br />
+<br />
+</div>
+
+
+
+</div> 
+
 
       
     </div>
